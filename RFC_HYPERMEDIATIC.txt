@@ -75,9 +75,10 @@ Table of Contents
    4.  Criteria for a hypermediatic browser or fileformats . . . . .   3
      4.1.  Native top-level URL browsin  . . . . . . . . . . . . . .   3
    5.  Hypermediatic as a selfmodulating synthesizer . . . . . . . .   4
-   6.  Contact . . . . . . . . . . . . . . . . . . . . . . . . . . .   4
-   7.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
-   8.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .   4
+   6.  Questioning the conservative interpretation of hypermedia . .   4
+   7.  Contact . . . . . . . . . . . . . . . . . . . . . . . . . . .   5
+   8.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   5
+   9.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .   5
 
 1.  Redefining the hypermedia experience
 
@@ -105,7 +106,6 @@ Table of Contents
    also introduced hyperscripted unhyperified websites, causing trending
    technologies like htmx.org (https://htmx.org) and native appstores:
 
-   1.  Hypertext format (HTML)
 
 
 
@@ -114,6 +114,7 @@ van Kammen                Expires 1 April 2024                  [Page 2]
 Internet-Draft                hypermediatic               September 2023
 
 
+   1.  Hypertext format (HTML)
    2.  Embedded Hypermedia in HTML
    3.  1995: Javascript in HTML
    4.  1999: Browser extensions (store)
@@ -161,7 +162,6 @@ Internet-Draft                hypermediatic               September 2023
 
 4.1.  Native top-level URL browsin
 
-   1.  if an extension or mimetype is unknown
 
 
 
@@ -170,6 +170,7 @@ van Kammen                Expires 1 April 2024                  [Page 3]
 Internet-Draft                hypermediatic               September 2023
 
 
+   1.  if an extension or mimetype is unknown
    2.  search the fileformat store for supported fileformatviewers (and
        offer installation)
    3.  search the browser extension store for fileformat-related support
@@ -192,15 +193,57 @@ Internet-Draft                hypermediatic               September 2023
    |  Therefore, thru the lens of McLuhan the following applies: "The
    |  URL IS the message"
 
-6.  Contact
+6.  Questioning the conservative interpretation of hypermedia
+
+   Let us focus on the spirit of the following ideas, rather than
+   getting caught up in the forthcoming conflation of 'hyper' terms.
+   The reframing of hypermedia towards hypermediatic raises several
+   questions that challenge current hypermedia:
+
+   1.  Until which point is HTML holding back highperformant hypermedia-
+       surfing of images/sound/video/3D?
+   2.  Why are webbrowsers poorly supporting other fileformats using
+       URLs?  And does the individual decide which fileformats are (not)
+       deferred to the (browser-extension) backseat?
+   3.  Why are hypermedia fileformats not encouraged to support the
+       outbound/embedded hyperlink-paradigm like HTML?
+   4.  Why are operating systems not supporting/encouraging outbound/
+       embedded links in fileformats out of the box? (liquid
+       information/hyperwords e.g.)
+
+
+
+
+
+
+
+
+
+
+
+van Kammen                Expires 1 April 2024                  [Page 4]
+
+Internet-Draft                hypermediatic               September 2023
+
+
+   A lot of it, can perhaps be explained by the *hypertext-first-
+   hypermedia-later vision* which most webbrowsers and operating systems
+   seem to share.
+   From an historical perspective this makes sense (it was easier to
+   project text than images back in the days).
+   However, it also means that whatever fileformat is consumed in the
+   webbrowser, gets served through this lens (through HTML) or
+   indirectly via browser extensions.
+
+7.  Contact
 
    *  leonvankammen|gmail.com
 
-7.  IANA Considerations
+8.  IANA Considerations
 
    This document has no IANA actions.
 
-8.  Acknowledgments
+9.  Acknowledgments
 
    TODO acknowledge.
 
@@ -221,4 +264,17 @@ Internet-Draft                hypermediatic               September 2023
 
 
 
-van Kammen                Expires 1 April 2024                  [Page 4]
+
+
+
+
+
+
+
+
+
+
+
+
+
+van Kammen                Expires 1 April 2024                  [Page 5]

@@ -97,6 +97,20 @@ In other words: the URL is the carrier of another URL.<br>
 
 > Therefore, thru the lens of McLuhan the following applies: "The URL IS the message"
 
+# Questioning the conservative interpretation of hypermedia
+
+Let us focus on the spirit of the following ideas, rather than getting caught up in the forthcoming conflation of 'hyper' terms.<br>
+The reframing of hypermedia towards hypermediatic raises several questions that challenge current hypermedia:<br>
+
+1. Until which point is HTML holding back highperformant hypermedia-surfing of images/sound/video/3D?
+1. Why are webbrowsers poorly supporting other fileformats using URLs? And does the individual decide which fileformats are (not) deferred to the (browser-extension) backseat?
+1. Why are hypermedia fileformats not encouraged to support the outbound/embedded hyperlink-paradigm like HTML?
+1. Why are operating systems not supporting/encouraging outbound/embedded links in fileformats out of the box? (liquid information/hyperwords e.g.)
+
+A lot of it, can perhaps be explained by the **hypertext-first-hypermedia-later vision** which most webbrowsers and operating systems seem to share.<br>
+From an historical perspective this makes sense (it was easier to project text than images back in the days).<br>
+However, it also means that whatever fileformat is consumed in the webbrowser, gets served through this lens (through HTML) or indirectly via browser extensions.<br>
+
 # Contact
 
 * leonvankammen|gmail.com
