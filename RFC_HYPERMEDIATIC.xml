@@ -11,7 +11,7 @@
 
 <abstract>
 <t><strong>hypermediatic</strong> browsers, are browsers which allow hypermedia navigation by treating ALL fileformats (with outbound/embedded links) as first-class citizens by default, rather than getting served through hyperscripted layers like HTML or browser-extensions.
-A hypermediatic browser, treats HTML as <strong>just</strong> a fileformat, rather then <strong>the</strong> doorway to hypermedia.</t>
+A hypermediatic browser, treats HTML as <strong>JUST</strong> a fileformat, rather then <strong>THE</strong> doorway to hypermedia.</t>
 <t>&lt;img src=&quot;droste.jpg&quot; style=&quot;max-width:600px&quot;/&gt;</t>
 </abstract>
 
@@ -23,7 +23,7 @@ A hypermediatic browser, treats HTML as <strong>just</strong> a fileformat, rath
 <t>Traditionally, hypermedia experiences seem to be explained like this: hypermedia (images/sound/video) is 'carried' by hypertext (HTML):</t>
 <t><strong>The carrier is HTML, the modulator is hypermedia.</strong></t>
 <t>However, these days, a more appropriate way of looking at things is this:</t>
-<t><strong>The carrier is the URL, the modulators are hypermedia (URLs)</strong></t>
+<t><strong>The carrier IS the URL, the modulators ARE hypermedia (URLs)</strong></t>
 <blockquote><t>HTML brought us a lot, but it also is becoming a bottleneck for highperformance hypermedia experiences, pushing developers towards publishing native non-hyperconnected apps into appstores.</t>
 </blockquote><t>If we want the web to be inclusive for spatial computing and other future formats (gaming e.g.), we must stop looking at it like a web of textdocuments with bells and whistles.</t>
 </section>
@@ -72,9 +72,9 @@ In retrospect, a more hypermediatic browser however, could perhaps be achieved a
 </ol>
 </section>
 
-<section anchor="hypermediatic-allowing-selfmodulating-synthesis"><name>Hypermediatic allowing selfmodulating synthesis</name>
+<section anchor="hypermediatic-as-a-selfmodulating-synthesizer"><name>Hypermediatic as a selfmodulating synthesizer</name>
 <t>Lets take this hypermediatic slogan:</t>
-<t><strong>The carrier is the URL, the modulators are hypermedia (URLs)</strong></t>
+<t><strong>The carrier IS the URL, the modulators ARE hypermedia (URLs)</strong></t>
 <t>Why does it say URLs in brackets?<br />
 
 Well the observation is actually that URLs modulate URLs too.<br />

@@ -17,8 +17,8 @@ Abstract
    navigation by treating ALL fileformats (with outbound/embedded links)
    as first-class citizens by default, rather than getting served
    through hyperscripted layers like HTML or browser-extensions.  A
-   hypermediatic browser, treats HTML as *just* a fileformat, rather
-   then *the* doorway to hypermedia.
+   hypermediatic browser, treats HTML as *JUST* a fileformat, rather
+   then *THE* doorway to hypermedia.
 
    <img src="droste.jpg" style="max-width:600px"/>
 
@@ -73,7 +73,7 @@ Table of Contents
    2.  Hypermediatic hypermedia vs shallow webbrowsers . . . . . . .   2
    3.  Benefits  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
    4.  Criteria for a hypermediatic browser or fileformats . . . . .   3
-   5.  Hypermediatic allowing selfmodulating synthesis . . . . . . .   3
+   5.  Hypermediatic as a selfmodulating synthesizer . . . . . . . .   3
    6.  Contact . . . . . . . . . . . . . . . . . . . . . . . . . . .   4
    7.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
    8.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .   4
@@ -88,7 +88,7 @@ Table of Contents
    However, these days, a more appropriate way of looking at things is
    this:
 
-   *The carrier is the URL, the modulators are hypermedia (URLs)*
+   *The carrier IS the URL, the modulators ARE hypermedia (URLs)*
 
    |  HTML brought us a lot, but it also is becoming a bottleneck for
    |  highperformance hypermedia experiences, pushing developers towards
@@ -158,7 +158,7 @@ Internet-Draft                hypermediatic               September 2023
    7.  Positioning the user in 2D/3D is supported (like a spawn-point in
        games, or URI Fragment-jump-to-page-position in HTML)
 
-5.  Hypermediatic allowing selfmodulating synthesis
+5.  Hypermediatic as a selfmodulating synthesizer
 
    Lets take this hypermediatic slogan:
 
@@ -170,7 +170,7 @@ van Kammen                Expires 1 April 2024                  [Page 3]
 Internet-Draft                hypermediatic               September 2023
 
 
-   *The carrier is the URL, the modulators are hypermedia (URLs)*
+   *The carrier IS the URL, the modulators ARE hypermedia (URLs)*
 
    Why does it say URLs in brackets?
    Well the observation is actually that URLs modulate URLs too.

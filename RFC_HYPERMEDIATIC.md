@@ -23,7 +23,7 @@ fullname="L.R. van Kammen"
 .# Abstract
 
 **hypermediatic** browsers, are browsers which allow hypermedia navigation by treating ALL fileformats (with outbound/embedded links) as first-class citizens by default, rather than getting served through hyperscripted layers like HTML or browser-extensions.
-A hypermediatic browser, treats HTML as **just** a fileformat, rather then **the** doorway to hypermedia.
+A hypermediatic browser, treats HTML as **JUST** a fileformat, rather then **THE** doorway to hypermedia.
 
 <img src="droste.jpg" style="max-width:600px"/>
 
@@ -37,7 +37,7 @@ Traditionally, hypermedia experiences seem to be explained like this: hypermedia
 
 However, these days, a more appropriate way of looking at things is this:
 
-**The carrier is the URL, the modulators are hypermedia (URLs)**
+**The carrier IS the URL, the modulators ARE hypermedia (URLs)**
 
 > HTML brought us a lot, but it also is becoming a bottleneck for highperformance hypermedia experiences, pushing developers towards publishing native non-hyperconnected apps into appstores.
 
@@ -77,11 +77,11 @@ In retrospect, a more hypermediatic browser however, could perhaps be achieved a
 6. Naming nodes or items is supported (like `id` in HTML, or object names in glTF)
 7. Positioning the user in 2D/3D is supported (like a spawn-point in games, or URI Fragment-jump-to-page-position in HTML)
 
-# Hypermediatic allowing selfmodulating synthesis
+# Hypermediatic as a selfmodulating synthesizer
 
 Lets take this hypermediatic slogan:
 
-**The carrier is the URL, the modulators are hypermedia (URLs)**
+**The carrier IS the URL, the modulators ARE hypermedia (URLs)**
 
 Why does it say URLs in brackets?<br>
 Well the observation is actually that URLs modulate URLs too.<br> 
