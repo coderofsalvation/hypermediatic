@@ -23,7 +23,7 @@ fullname="L.R. van Kammen"
 .# Abstract
 
 **hypermediatic** browsers, are browsers which allow hypermedia navigation by treating ALL fileformats (with outbound/embedded links) as first-class citizens by default, rather than getting served through hyperscripted layers like HTML.
-A hypermediatic browser, treats HTML as **JUST** a fileformat, rather then **THE** doorway to hypermedia.
+A hypermediatic browser <b>mediates</b> in hyperconnecting URIs/URLs, by treating HTML as **JUST** a fileformat, rather then **THE** doorway to hypermedia.
 
 <img src="droste.jpg" style="max-width:600px"/>
 
