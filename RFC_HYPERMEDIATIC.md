@@ -22,7 +22,7 @@ fullname="L.R. van Kammen"
 
 .# Abstract
 
-**hypermediatic** browsers, are browsers which allow hypermedia navigation by treating ALL fileformats (with outbound/embedded links) as first-class citizens by default, rather than getting served through hyperscripted layers like HTML or browser-extensions.
+**hypermediatic** browsers, are browsers which allow hypermedia navigation by treating ALL fileformats (with outbound/embedded links) as first-class citizens by default, rather than getting served through hyperscripted layers like HTML.
 A hypermediatic browser, treats HTML as **JUST** a fileformat, rather then **THE** doorway to hypermedia.
 
 <img src="droste.jpg" style="max-width:600px"/>
@@ -76,6 +76,12 @@ In retrospect, a more hypermediatic browser however, could perhaps be achieved a
 5. Tagging/Classifying nodes or items is supported (like `class` in HTML)
 6. Naming nodes or items is supported (like `id` in HTML, or object names in glTF)
 7. Positioning the user in 2D/3D is supported (like a spawn-point in games, or URI Fragment-jump-to-page-position in HTML)
+
+## Native top-level URL browsin
+
+1. if an extension or mimetype is unknown
+1. search the fileformat store for supported fileformatviewers (and offer installation)
+1. search the browser extension store for fileformat-related support (and offer installation)
 
 # Hypermediatic as a selfmodulating synthesizer
 

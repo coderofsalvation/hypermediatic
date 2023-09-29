@@ -16,9 +16,9 @@ Abstract
    *hypermediatic* browsers, are browsers which allow hypermedia
    navigation by treating ALL fileformats (with outbound/embedded links)
    as first-class citizens by default, rather than getting served
-   through hyperscripted layers like HTML or browser-extensions.  A
-   hypermediatic browser, treats HTML as *JUST* a fileformat, rather
-   then *THE* doorway to hypermedia.
+   through hyperscripted layers like HTML.  A hypermediatic browser,
+   treats HTML as *JUST* a fileformat, rather then *THE* doorway to
+   hypermedia.
 
    <img src="droste.jpg" style="max-width:600px"/>
 
@@ -73,7 +73,8 @@ Table of Contents
    2.  Hypermediatic hypermedia vs shallow webbrowsers . . . . . . .   2
    3.  Benefits  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
    4.  Criteria for a hypermediatic browser or fileformats . . . . .   3
-   5.  Hypermediatic as a selfmodulating synthesizer . . . . . . . .   3
+     4.1.  Native top-level URL browsin  . . . . . . . . . . . . . .   3
+   5.  Hypermediatic as a selfmodulating synthesizer . . . . . . . .   4
    6.  Contact . . . . . . . . . . . . . . . . . . . . . . . . . . .   4
    7.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
    8.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .   4
@@ -105,7 +106,6 @@ Table of Contents
    technologies like htmx.org (https://htmx.org) and native appstores:
 
    1.  Hypertext format (HTML)
-   2.  Embedded Hypermedia in HTML
 
 
 
@@ -114,6 +114,7 @@ van Kammen                Expires 1 April 2024                  [Page 2]
 Internet-Draft                hypermediatic               September 2023
 
 
+   2.  Embedded Hypermedia in HTML
    3.  1995: Javascript in HTML
    4.  1999: Browser extensions (store)
 
@@ -158,10 +159,9 @@ Internet-Draft                hypermediatic               September 2023
    7.  Positioning the user in 2D/3D is supported (like a spawn-point in
        games, or URI Fragment-jump-to-page-position in HTML)
 
-5.  Hypermediatic as a selfmodulating synthesizer
+4.1.  Native top-level URL browsin
 
-   Lets take this hypermediatic slogan:
-
+   1.  if an extension or mimetype is unknown
 
 
 
@@ -169,6 +169,15 @@ van Kammen                Expires 1 April 2024                  [Page 3]
 
 Internet-Draft                hypermediatic               September 2023
 
+
+   2.  search the fileformat store for supported fileformatviewers (and
+       offer installation)
+   3.  search the browser extension store for fileformat-related support
+       (and offer installation)
+
+5.  Hypermediatic as a selfmodulating synthesizer
+
+   Lets take this hypermediatic slogan:
 
    *The carrier IS the URL, the modulators ARE hypermedia (URLs)*
 
@@ -194,15 +203,6 @@ Internet-Draft                hypermediatic               September 2023
 8.  Acknowledgments
 
    TODO acknowledge.
-
-
-
-
-
-
-
-
-
 
 
 
