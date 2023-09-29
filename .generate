@@ -1,0 +1,6 @@
+#!/bin/sh 
+set -e
+mmark RFC_HYPERMEDIATIC.md         > RFC_HYPERMEDIATIC.xml 
+mmark --html RFC_HYPERMEDIATIC.md  > RFC_HYPERMEDIATIC.html 
+xml2rfc --v3 RFC_HYPERMEDIATIC.xml # RFC_HYPERMEDIATIC.txt
+sed 's/<title>.*//g' -i RFC_HYPERMEDIATIC.html 

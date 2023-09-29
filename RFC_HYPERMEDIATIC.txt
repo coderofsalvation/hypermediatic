@@ -1,0 +1,224 @@
+
+
+
+
+Internet                                                 L.R. van Kammen
+Internet-Draft                                         29 September 2023
+Intended status: Informational                                          
+Expires: 1 April 2024
+
+
+                             hypermediatic
+                  draft-hypermediatic-leonvankammen-00
+
+Abstract
+
+   *hypermediatic* browsers, are browsers which allow hypermedia
+   navigation by treating ALL fileformats (with outbound/embedded links)
+   as first-class citizens by default, rather than getting served
+   through hyperscripted layers like HTML or browser-extensions.  A
+   hypermediatic browser, treats HTML as *just* a fileformat, rather
+   then *the* doorway to hypermedia.
+
+   <img src="droste.jpg" style="max-width:600px"/>
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 1 April 2024.
+
+Copyright Notice
+
+   Copyright (c) 2023 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+
+
+
+
+
+
+
+
+
+van Kammen                Expires 1 April 2024                  [Page 1]
+
+Internet-Draft                hypermediatic               September 2023
+
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
+
+Table of Contents
+
+   1.  Redefining the hypermedia experience  . . . . . . . . . . . .   2
+   2.  Hypermediatic hypermedia vs shallow webbrowsers . . . . . . .   2
+   3.  Benefits  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
+   4.  Criteria for a hypermediatic browser or fileformats . . . . .   3
+   5.  Hypermediatic allowing selfmodulating synthesis . . . . . . .   3
+   6.  Contact . . . . . . . . . . . . . . . . . . . . . . . . . . .   4
+   7.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
+   8.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .   4
+
+1.  Redefining the hypermedia experience
+
+   Traditionally, hypermedia experiences seem to be explained like this:
+   hypermedia (images/sound/video) is 'carried' by hypertext (HTML):
+
+   *The carrier is HTML, the modulator is hypermedia.*
+
+   However, these days, a more appropriate way of looking at things is
+   this:
+
+   *The carrier is the URL, the modulators are hypermedia (URLs)*
+
+   |  HTML brought us a lot, but it also is becoming a bottleneck for
+   |  highperformance hypermedia experiences, pushing developers towards
+   |  publishing native non-hyperconnected apps into appstores.
+
+   If we want the web to be inclusive for spatial computing and other
+   future formats (gaming e.g.), we must stop looking at it like a web
+   of textdocuments with bells and whistles.
+
+2.  Hypermediatic hypermedia vs shallow webbrowsers
+
+   The following feature-stack timeline has introduced lots of good, but
+   also introduced hyperscripted unhyperified websites, causing trending
+   technologies like htmx.org (https://htmx.org) and native appstores:
+
+   1.  Hypertext format (HTML)
+   2.  Embedded Hypermedia in HTML
+
+
+
+van Kammen                Expires 1 April 2024                  [Page 2]
+
+Internet-Draft                hypermediatic               September 2023
+
+
+   3.  1995: Javascript in HTML
+   4.  1999: Browser extensions (store)
+
+   One could argue that at some point the webbrowser was THE disrupting
+   appstore, by hyperconnecting data itself.
+   In retrospect, a more hypermediatic browser however, could perhaps be
+   achieved along these lines:
+
+   1.  support popular fileformats containing outbound/embedded links
+   2.  filetype extensions (store) to support viewing fileformats with
+       native highperformance
+   3.  browser extensions (store) only place to allow logic/scripting
+       (javascript e.g.)
+
+3.  Benefits
+
+   1.  non-HTML fileformats are treated as first-class hypermedia too,
+       fostering latest hardware-to-software hypermedia experiences.
+   2.  filetype organisations can publish highperformance extensions to
+       the filetype store.
+   3.  unrecognized fileformats can automatically consult the filetype
+       and/or browser extension-store, and trigger an installation CTA
+   4.  closing the gap between native highperformance games/spatial
+       computing and the (lower performing security-sandboxed)
+       webbrowser
+   5.  preventing the security/privacy traps of hyperscripted HTML, by
+       pushing/allowing logic-layer (javascript e.g.) only in browser-
+       extension space
+
+4.  Criteria for a hypermediatic browser or fileformats
+
+   1.  fileformats with outbound/embedded links are the focus (not only
+       HTML)
+   2.  toplevel URLs with an unknown file-extension or mimetype should
+       trigger the fileformat store
+   3.  Outbound links are supported (like href in HTML)
+   4.  Embedded links are supported (like src in HTML)
+   5.  Tagging/Classifying nodes or items is supported (like class in
+       HTML)
+   6.  Naming nodes or items is supported (like id in HTML, or object
+       names in glTF)
+   7.  Positioning the user in 2D/3D is supported (like a spawn-point in
+       games, or URI Fragment-jump-to-page-position in HTML)
+
+5.  Hypermediatic allowing selfmodulating synthesis
+
+   Lets take this hypermediatic slogan:
+
+
+
+
+van Kammen                Expires 1 April 2024                  [Page 3]
+
+Internet-Draft                hypermediatic               September 2023
+
+
+   *The carrier is the URL, the modulators are hypermedia (URLs)*
+
+   Why does it say URLs in brackets?
+   Well the observation is actually that URLs modulate URLs too.
+   An example is a share-button as a hypermediatic phenomenon: in most
+   cases it shares an URL to another URL.
+   When the enduser presses the share-button, an URL (usually on the
+   backend) is requesting by sending the shared URL along.
+   In other words: the URL is the carrier of another URL.
+
+   |  Therefore, thru the lens of McLuhan the following applies: "The
+   |  URL IS the message"
+
+6.  Contact
+
+   *  leonvankammen|gmail.com
+
+7.  IANA Considerations
+
+   This document has no IANA actions.
+
+8.  Acknowledgments
+
+   TODO acknowledge.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+van Kammen                Expires 1 April 2024                  [Page 4]

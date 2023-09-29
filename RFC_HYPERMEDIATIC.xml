@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- name="GENERATOR" content="github.com/mmarkdown/mmark Mmark Markdown Processor - mmark.miek.nl" -->
+<rfc version="3" ipr="trust200902" docName="draft-hypermediatic-leonvankammen-00" submissionType="IETF" category="info" xml:lang="en" xmlns:xi="http://www.w3.org/2001/XInclude" indexInclude="true" consensus="true">
+
+<front>
+<title>hypermediatic</title><seriesInfo value="draft-hypermediatic-leonvankammen-00" stream="IETF" status="informational" name="hypermediatic"></seriesInfo>
+<author initials="L.R." surname="van Kammen" fullname="L.R. van Kammen"><organization></organization><address><postal><street></street>
+</postal></address></author><date/>
+<area>Internet</area>
+<workgroup>Internet</workgroup>
+
+<abstract>
+<t><strong>hypermediatic</strong> browsers, are browsers which allow hypermedia navigation by treating ALL fileformats (with outbound/embedded links) as first-class citizens by default, rather than getting served through hyperscripted layers like HTML or browser-extensions.
+A hypermediatic browser, treats HTML as <strong>just</strong> a fileformat, rather then <strong>the</strong> doorway to hypermedia.</t>
+<t>&lt;img src=&quot;droste.jpg&quot; style=&quot;max-width:600px&quot;/&gt;</t>
+</abstract>
+
+</front>
+
+<middle>
+
+<section anchor="redefining-the-hypermedia-experience"><name>Redefining the hypermedia experience</name>
+<t>Traditionally, hypermedia experiences seem to be explained like this: hypermedia (images/sound/video) is 'carried' by hypertext (HTML):</t>
+<t><strong>The carrier is HTML, the modulator is hypermedia.</strong></t>
+<t>However, these days, a more appropriate way of looking at things is this:</t>
+<t><strong>The carrier is the URL, the modulators are hypermedia (URLs)</strong></t>
+<blockquote><t>HTML brought us a lot, but it also is becoming a bottleneck for highperformance hypermedia experiences, pushing developers towards publishing native non-hyperconnected apps into appstores.</t>
+</blockquote><t>If we want the web to be inclusive for spatial computing and other future formats (gaming e.g.), we must stop looking at it like a web of textdocuments with bells and whistles.</t>
+</section>
+
+<section anchor="hypermediatic-hypermedia-vs-shallow-webbrowsers"><name>Hypermediatic hypermedia vs shallow webbrowsers</name>
+<t>The following feature-stack timeline has introduced lots of good, but also introduced hyperscripted unhyperified websites, causing trending technologies like <eref target="https://htmx.org">htmx.org</eref> and native appstores:</t>
+
+<ol spacing="compact">
+<li>Hypertext format (HTML)</li>
+<li>Embedded Hypermedia in HTML</li>
+<li>1995: Javascript in HTML</li>
+<li>1999: Browser extensions (store)</li>
+</ol>
+<t>One could argue that at some point the webbrowser was THE disrupting appstore, by hyperconnecting data itself.<br />
+
+In retrospect, a more hypermediatic browser however, could perhaps be achieved along these lines:</t>
+
+<ol spacing="compact">
+<li>support popular fileformats containing outbound/embedded links</li>
+<li>filetype extensions (store) to support viewing fileformats with native highperformance</li>
+<li>browser extensions (store) only place to allow logic/scripting (javascript e.g.)</li>
+</ol>
+</section>
+
+<section anchor="benefits"><name>Benefits</name>
+
+<ol spacing="compact">
+<li>non-HTML fileformats are treated as first-class hypermedia too, fostering latest hardware-to-software hypermedia experiences.</li>
+<li>filetype organisations can publish highperformance extensions to the filetype store.</li>
+<li>unrecognized fileformats can automatically consult the filetype and/or browser extension-store, and trigger an installation CTA</li>
+<li>closing the gap between native highperformance games/spatial computing and the (lower performing security-sandboxed) webbrowser</li>
+<li>preventing the security/privacy traps of hyperscripted HTML, by pushing/allowing logic-layer (javascript e.g.) only in browser-extension space</li>
+</ol>
+</section>
+
+<section anchor="criteria-for-a-hypermediatic-browser-or-fileformats"><name>Criteria for a hypermediatic browser or fileformats</name>
+
+<ol spacing="compact">
+<li>fileformats with outbound/embedded links are the focus (not only HTML)</li>
+<li>toplevel URLs with an unknown file-extension or mimetype should trigger the fileformat store</li>
+<li>Outbound links are supported (like <tt>href</tt> in HTML)</li>
+<li>Embedded links are supported (like <tt>src</tt> in HTML)</li>
+<li>Tagging/Classifying nodes or items is supported (like <tt>class</tt> in HTML)</li>
+<li>Naming nodes or items is supported (like <tt>id</tt> in HTML, or object names in glTF)</li>
+<li>Positioning the user in 2D/3D is supported (like a spawn-point in games, or URI Fragment-jump-to-page-position in HTML)</li>
+</ol>
+</section>
+
+<section anchor="hypermediatic-allowing-selfmodulating-synthesis"><name>Hypermediatic allowing selfmodulating synthesis</name>
+<t>Lets take this hypermediatic slogan:</t>
+<t><strong>The carrier is the URL, the modulators are hypermedia (URLs)</strong></t>
+<t>Why does it say URLs in brackets?<br />
+
+Well the observation is actually that URLs modulate URLs too.<br />
+
+An example is a share-button as a hypermediatic phenomenon: in most cases it shares an URL to another URL.<br />
+
+When the enduser presses the share-button, an URL (usually on the backend) is requesting by sending the shared URL along.<br />
+
+In other words: the URL is the carrier of another URL.<br />
+</t>
+<blockquote><t>Therefore, thru the lens of McLuhan the following applies: &quot;The URL IS the message&quot;</t>
+</blockquote></section>
+
+<section anchor="contact"><name>Contact</name>
+
+<ul spacing="compact">
+<li>leonvankammen|gmail.com</li>
+</ul>
+</section>
+
+<section anchor="iana-considerations"><name>IANA Considerations</name>
+<t>This document has no IANA actions.</t>
+</section>
+
+<section anchor="acknowledgments"><name>Acknowledgments</name>
+<t>TODO acknowledge.</t>
+</section>
+
+</middle>
+
+</rfc>
