@@ -3,9 +3,9 @@
 
 
 Internet                                                 L.R. van Kammen
-Internet-Draft                                         29 September 2023
+Internet-Draft                                            2 October 2023
 Intended status: Informational                                          
-Expires: 1 April 2024
+Expires: 4 April 2024
 
 
                              hypermediatic
@@ -15,10 +15,10 @@ Abstract
 
    *hypermediatic* browsers, are browsers which allow hypermedia
    navigation by treating ALL fileformats (with outbound/embedded links)
-   as first-class citizens by default, rather than getting served
-   through hyperscripted layers like HTML.  A hypermediatic browser
-   <b>MEDIATES</b> in hyperconnecting URIs/URLs, by treating HTML as
-   *JUST* a fileformat, rather then *THE* doorway to hypermedia.
+   equally as first-class citizens by default, rather than getting
+   served through hyperscripted single-layer like HTML.  A hypermediatic
+   browser <b>MEDIATES</b> in hyperconnecting URIs/URLs, by treating
+   HTML as *JUST* a fileformat, rather then *THE* doorway to hypermedia.
 
    <img src="droste.jpg" style="max-width:600px"/>
 
@@ -37,7 +37,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 1 April 2024.
+   This Internet-Draft will expire on 4 April 2024.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-van Kammen                Expires 1 April 2024                  [Page 1]
+van Kammen                Expires 4 April 2024                  [Page 1]
 
-Internet-Draft                hypermediatic               September 2023
+Internet-Draft                hypermediatic                 October 2023
 
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-van Kammen                Expires 1 April 2024                  [Page 2]
+van Kammen                Expires 4 April 2024                  [Page 2]
 
-Internet-Draft                hypermediatic               September 2023
+Internet-Draft                hypermediatic                 October 2023
 
 
    1.  Hypertext format (HTML)
@@ -165,9 +165,9 @@ Internet-Draft                hypermediatic               September 2023
 
 
 
-van Kammen                Expires 1 April 2024                  [Page 3]
+van Kammen                Expires 4 April 2024                  [Page 3]
 
-Internet-Draft                hypermediatic               September 2023
+Internet-Draft                hypermediatic                 October 2023
 
 
    1.  if an extension or mimetype is unknown
@@ -221,9 +221,9 @@ Internet-Draft                hypermediatic               September 2023
 
 
 
-van Kammen                Expires 1 April 2024                  [Page 4]
+van Kammen                Expires 4 April 2024                  [Page 4]
 
-Internet-Draft                hypermediatic               September 2023
+Internet-Draft                hypermediatic                 October 2023
 
 
    A lot of it, can perhaps be explained by the *hypertext-first-
@@ -277,4 +277,4 @@ Internet-Draft                hypermediatic               September 2023
 
 
 
-van Kammen                Expires 1 April 2024                  [Page 5]
+van Kammen                Expires 4 April 2024                  [Page 5]
