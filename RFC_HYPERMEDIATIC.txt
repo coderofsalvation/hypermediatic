@@ -102,9 +102,9 @@ Table of Contents
 
 2.  Criteria for a hypermediatic browser or fileformats
 
-   1.  scan for words containing :// or multiple dots and a slash, and
-       present them as navigatable hyperlinks
-
+   1.  when possible, convert filenames in documents ('see foo.pdf') to
+       navigatable hyperlinks when they exist in the current filesystem/
+       directory.
 
 
 
@@ -114,9 +114,8 @@ van Kammen                Expires 11 April 2024                 [Page 2]
 Internet-Draft                hypermediatic                 October 2023
 
 
-   2.  when possible, convert filenames in documents ('see foo.pdf') to
-       navigatable hyperlinks when they exist in the current filesystem/
-       directory.
+   2.  if online: scan for words containing :// or multiple dots and a
+       slash, and present them as navigatable hyperlinks
    3.  (any) fileformats with outbound/embedded links are the focus (not
        only HTML)
    4.  toplevel URLs with an unknown file-extension or mimetype should
@@ -162,6 +161,7 @@ Internet-Draft                hypermediatic                 October 2023
        native highperformance
    3.  browser extensions (store) only place to allow logic/scripting
        (javascript e.g.)
+
 
 
 

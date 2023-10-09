@@ -45,8 +45,8 @@ If we want the web to be inclusive for spatial computing and other future format
 
 # Criteria for a hypermediatic browser or fileformats
 
-1. scan for words containing `://` or multiple dots and a slash, and present them as navigatable hyperlinks
-2. when possible, convert filenames in documents ('see foo.pdf') to navigatable hyperlinks when they exist in the current filesystem/directory.
+1. when possible, convert filenames in documents ('see foo.pdf') to navigatable hyperlinks when they exist in the current filesystem/directory.
+2. if online: scan for words containing `://` or multiple dots and a slash, and present them as navigatable hyperlinks
 3. (any) fileformats with outbound/embedded links are the focus (not only HTML)
 4. toplevel URLs with an unknown file-extension or mimetype should trigger the fileformat store 
 5. Outbound links are supported (like `href` in HTML)

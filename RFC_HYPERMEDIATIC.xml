@@ -31,8 +31,8 @@ A hypermediatic browser &lt;b&gt;MEDIATES&lt;/b&gt; in hyperconnecting URIs/URLs
 <section anchor="criteria-for-a-hypermediatic-browser-or-fileformats"><name>Criteria for a hypermediatic browser or fileformats</name>
 
 <ol spacing="compact">
-<li>scan for words containing <tt>://</tt> or multiple dots and a slash, and present them as navigatable hyperlinks</li>
 <li>when possible, convert filenames in documents ('see foo.pdf') to navigatable hyperlinks when they exist in the current filesystem/directory.</li>
+<li>if online: scan for words containing <tt>://</tt> or multiple dots and a slash, and present them as navigatable hyperlinks</li>
 <li>(any) fileformats with outbound/embedded links are the focus (not only HTML)</li>
 <li>toplevel URLs with an unknown file-extension or mimetype should trigger the fileformat store</li>
 <li>Outbound links are supported (like <tt>href</tt> in HTML)</li>
