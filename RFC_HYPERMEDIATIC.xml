@@ -43,7 +43,7 @@ A hypermediatic browser &lt;b&gt;MEDIATES&lt;/b&gt; in hyperconnecting URIs/URLs
 </ol>
 <blockquote><t>Subsets are encouraged too (hypermediatic is a spectrum). For example 1 &amp; 2 are nice usecases for terminal/ereaders.</t>
 </blockquote>
-<section anchor="native-top-level-url-browsin"><name>Native top-level URL browsin</name>
+<section anchor="native-top-level-url-browsing"><name>Native top-level URL browsing</name>
 
 <ol spacing="compact">
 <li>if an extension or mimetype is unknown</li>
@@ -57,6 +57,7 @@ A hypermediatic browser &lt;b&gt;MEDIATES&lt;/b&gt; in hyperconnecting URIs/URLs
 <t>The following feature-stack timeline has introduced lots of good, but also introduced hyperscripted unhyperified websites, causing trending technologies like <eref target="https://htmx.org">htmx.org</eref> and native appstores:</t>
 
 <ol spacing="compact">
+<li>Portable executable format</li>
 <li>Hypertext format (HTML)</li>
 <li>Embedded Hypermedia in HTML</li>
 <li>1995: Javascript in HTML</li>
@@ -64,14 +65,15 @@ A hypermediatic browser &lt;b&gt;MEDIATES&lt;/b&gt; in hyperconnecting URIs/URLs
 </ol>
 <t>One could argue that at some point the webbrowser was THE disrupting appstore, by hyperconnecting data itself.<br />
 
-In retrospect, a more hypermediatic browser however, could perhaps be achieved along these lines:</t>
+In retrospect, a more hypermediatic OS/app however, could perhaps be achieved along these lines:</t>
 
 <ol spacing="compact">
 <li>support popular fileformats containing outbound/embedded links</li>
-<li>filetype extensions (store) to support viewing fileformats with native highperformance</li>
-<li>browser extensions (store) only place to allow logic/scripting (javascript e.g.)</li>
+<li>use filetype extensions (OS/app)store to support viewing fileformats with native highperformance</li>
+<li>use browser extensions (OS/app)store as only place to way to support/import logic/scripting (javascript e.g.)</li>
 </ol>
-</section>
+<blockquote><t>In other words, a browser extension (multiparty Matrix-room .g.) can enhance an experience/URL with scripting/logic, and these can be suggested in the (logicless) experience</t>
+</blockquote></section>
 
 <section anchor="benefits"><name>Benefits</name>
 

@@ -71,7 +71,7 @@ Table of Contents
 
    1.  Redefining the hypermedia experience  . . . . . . . . . . . .   2
    2.  Criteria for a hypermediatic browser or fileformats . . . . .   2
-     2.1.  Native top-level URL browsin  . . . . . . . . . . . . . .   3
+     2.1.  Native top-level URL browsing . . . . . . . . . . . . . .   3
    3.  Hypermediatic hypermedia vs shallow webbrowsers . . . . . . .   3
    4.  Benefits  . . . . . . . . . . . . . . . . . . . . . . . . . .   4
    5.  Hypermediatic as a selfmodulating synthesizer . . . . . . . .   4
@@ -133,7 +133,7 @@ Internet-Draft                hypermediatic                 October 2023
    |  Subsets are encouraged too (hypermediatic is a spectrum).  For
    |  example 1 & 2 are nice usecases for terminal/ereaders.
 
-2.1.  Native top-level URL browsin
+2.1.  Native top-level URL browsing
 
    1.  if an extension or mimetype is unknown
    2.  search the fileformat store for supported fileformatviewers (and
@@ -147,21 +147,21 @@ Internet-Draft                hypermediatic                 October 2023
    also introduced hyperscripted unhyperified websites, causing trending
    technologies like htmx.org (https://htmx.org) and native appstores:
 
-   1.  Hypertext format (HTML)
-   2.  Embedded Hypermedia in HTML
-   3.  1995: Javascript in HTML
-   4.  1999: Browser extensions (store)
+   1.  Portable executable format
+   2.  Hypertext format (HTML)
+   3.  Embedded Hypermedia in HTML
+   4.  1995: Javascript in HTML
+   5.  1999: Browser extensions (store)
 
    One could argue that at some point the webbrowser was THE disrupting
    appstore, by hyperconnecting data itself.
-   In retrospect, a more hypermediatic browser however, could perhaps be
+   In retrospect, a more hypermediatic OS/app however, could perhaps be
    achieved along these lines:
 
    1.  support popular fileformats containing outbound/embedded links
-   2.  filetype extensions (store) to support viewing fileformats with
-       native highperformance
-   3.  browser extensions (store) only place to allow logic/scripting
-       (javascript e.g.)
+   2.  use filetype extensions (OS/app)store to support viewing
+       fileformats with native highperformance
+
 
 
 
@@ -169,6 +169,13 @@ van Kammen                Expires 11 April 2024                 [Page 3]
 
 Internet-Draft                hypermediatic                 October 2023
 
+
+   3.  use browser extensions (OS/app)store as only place to way to
+       support/import logic/scripting (javascript e.g.)
+
+   |  In other words, a browser extension (multiparty Matrix-room .g.)
+   |  can enhance an experience/URL with scripting/logic, and these can
+   |  be suggested in the (logicless) experience
 
 4.  Benefits
 
@@ -211,13 +218,6 @@ Internet-Draft                hypermediatic                 October 2023
 
    1.  Until which point is HTML holding back highperformant hypermedia-
        surfing of images/sound/video/3D?
-   2.  Why are webbrowsers poorly supporting other fileformats using
-       URLs?  And does the individual decide which fileformats are (not)
-       deferred to the (browser-extension) backseat?
-   3.  Why are hypermedia fileformats not encouraged to support the
-       outbound/embedded hyperlink-paradigm like HTML?
-
-
 
 
 
@@ -226,6 +226,11 @@ van Kammen                Expires 11 April 2024                 [Page 4]
 Internet-Draft                hypermediatic                 October 2023
 
 
+   2.  Why are webbrowsers poorly supporting other fileformats using
+       URLs?  And does the individual decide which fileformats are (not)
+       deferred to the (browser-extension) backseat?
+   3.  Why are hypermedia fileformats not encouraged to support the
+       outbound/embedded hyperlink-paradigm like HTML?
    4.  Why are operating systems not supporting/encouraging outbound/
        embedded links in fileformats out of the box? (liquid
        information/hyperwords e.g.)
@@ -250,11 +255,6 @@ Internet-Draft                hypermediatic                 October 2023
 9.  Acknowledgments
 
    TODO acknowledge.
-
-
-
-
-
 
 
 

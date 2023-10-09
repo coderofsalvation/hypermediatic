@@ -57,28 +57,30 @@ If we want the web to be inclusive for spatial computing and other future format
 
 > Subsets are encouraged too (hypermediatic is a spectrum). For example 1 & 2 are nice usecases for terminal/ereaders.
 
-## Native top-level URL browsin
+## Native top-level URL browsing
 
 1. if an extension or mimetype is unknown
 1. search the fileformat store for supported fileformatviewers (and offer installation)
 1. search the browser extension store for fileformat-related support (and offer installation)
 
-
 # Hypermediatic hypermedia vs shallow webbrowsers 
 
 The following feature-stack timeline has introduced lots of good, but also introduced hyperscripted unhyperified websites, causing trending technologies like [htmx.org](https://htmx.org) and native appstores:
 
-1. Hypertext format (HTML)
-2. Embedded Hypermedia in HTML 
-3. 1995: Javascript in HTML 
-4. 1999: Browser extensions (store)
+1. Portable executable format
+2. Hypertext format (HTML)
+3. Embedded Hypermedia in HTML 
+4. 1995: Javascript in HTML 
+5. 1999: Browser extensions (store)
 
 One could argue that at some point the webbrowser was THE disrupting appstore, by hyperconnecting data itself.<br>
-In retrospect, a more hypermediatic browser however, could perhaps be achieved along these lines:
+In retrospect, a more hypermediatic OS/app however, could perhaps be achieved along these lines:
 
 1. support popular fileformats containing outbound/embedded links
-2. filetype extensions (store) to support viewing fileformats with native highperformance 
-3. browser extensions (store) only place to allow logic/scripting (javascript e.g.)
+2. use filetype extensions (OS/app)store to support viewing fileformats with native highperformance 
+3. use browser extensions (OS/app)store as only place to way to support/import logic/scripting (javascript e.g.)
+
+> In other words, a browser extension (multiparty Matrix-room .g.) can enhance an experience/URL with scripting/logic, and these can be suggested in the (logicless) experience
 
 # Benefits 
 
