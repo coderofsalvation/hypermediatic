@@ -120,12 +120,13 @@ Internet-Draft                hypermediatic                 October 2023
        only HTML)
    4.  toplevel URLs with an unknown file-extension or mimetype should
        trigger the fileformat store
-   5.  Outbound links are supported (like href in HTML)
+   5.  Outbound links are supported (like href in HTML, url or file in
+       BibTeX)
    6.  Embedded links are supported (like src in HTML)
-   7.  Tagging/Classifying nodes or items is supported (like class in
-       HTML)
-   8.  Naming nodes or items is supported (like id in HTML, or object
-       names in glTF)
+   7.  Tagging/Classifying nodes or items is supported (like class='foo'
+       in HTML, or @foo{} in BibTeX)
+   8.  Naming nodes or items is supported (like id in HTML, object names
+       in glTF, @foo{myname} in BibTeX)
    9.  Positioning the user in 2D/3D is supported (like a spawn-point in
        games, or URI Fragment-jump-to-page-position in HTML)
 
@@ -161,7 +162,6 @@ Internet-Draft                hypermediatic                 October 2023
        native highperformance
    3.  browser extensions (store) only place to allow logic/scripting
        (javascript e.g.)
-
 
 
 

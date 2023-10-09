@@ -49,10 +49,10 @@ If we want the web to be inclusive for spatial computing and other future format
 2. if online: scan for words containing `://` or multiple dots and a slash, and present them as navigatable hyperlinks
 3. (any) fileformats with outbound/embedded links are the focus (not only HTML)
 4. toplevel URLs with an unknown file-extension or mimetype should trigger the fileformat store 
-5. Outbound links are supported (like `href` in HTML)
+5. Outbound links are supported (like `href` in HTML, `url` or `file` in BibTeX)
 6. Embedded links are supported (like `src` in HTML)
-7. Tagging/Classifying nodes or items is supported (like `class` in HTML)
-8. Naming nodes or items is supported (like `id` in HTML, or object names in glTF)
+7. Tagging/Classifying nodes or items is supported (like `class='foo'` in HTML, or `@foo{}` in BibTeX)
+8. Naming nodes or items is supported (like `id` in HTML, object names in glTF, `@foo{myname}` in BibTeX)
 9. Positioning the user in 2D/3D is supported (like a spawn-point in games, or URI Fragment-jump-to-page-position in HTML)
 
 > Subsets are encouraged too (hypermediatic is a spectrum). For example 1 & 2 are nice usecases for terminal/ereaders.

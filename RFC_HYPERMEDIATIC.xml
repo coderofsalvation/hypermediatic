@@ -35,10 +35,10 @@ A hypermediatic browser &lt;b&gt;MEDIATES&lt;/b&gt; in hyperconnecting URIs/URLs
 <li>if online: scan for words containing <tt>://</tt> or multiple dots and a slash, and present them as navigatable hyperlinks</li>
 <li>(any) fileformats with outbound/embedded links are the focus (not only HTML)</li>
 <li>toplevel URLs with an unknown file-extension or mimetype should trigger the fileformat store</li>
-<li>Outbound links are supported (like <tt>href</tt> in HTML)</li>
+<li>Outbound links are supported (like <tt>href</tt> in HTML, <tt>url</tt> or <tt>file</tt> in BibTeX)</li>
 <li>Embedded links are supported (like <tt>src</tt> in HTML)</li>
-<li>Tagging/Classifying nodes or items is supported (like <tt>class</tt> in HTML)</li>
-<li>Naming nodes or items is supported (like <tt>id</tt> in HTML, or object names in glTF)</li>
+<li>Tagging/Classifying nodes or items is supported (like <tt>class='foo'</tt> in HTML, or <tt>@foo{}</tt> in BibTeX)</li>
+<li>Naming nodes or items is supported (like <tt>id</tt> in HTML, object names in glTF, <tt>@foo{myname}</tt> in BibTeX)</li>
 <li>Positioning the user in 2D/3D is supported (like a spawn-point in games, or URI Fragment-jump-to-page-position in HTML)</li>
 </ol>
 <blockquote><t>Subsets are encouraged too (hypermediatic is a spectrum). For example 1 &amp; 2 are nice usecases for terminal/ereaders.</t>
