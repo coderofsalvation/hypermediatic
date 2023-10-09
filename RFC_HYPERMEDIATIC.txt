@@ -3,9 +3,9 @@
 
 
 Internet                                                 L.R. van Kammen
-Internet-Draft                                            2 October 2023
+Internet-Draft                                            9 October 2023
 Intended status: Informational                                          
-Expires: 4 April 2024
+Expires: 11 April 2024
 
 
                              hypermediatic
@@ -37,7 +37,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 April 2024.
+   This Internet-Draft will expire on 11 April 2024.
 
 Copyright Notice
 
@@ -53,7 +53,7 @@ Copyright Notice
 
 
 
-van Kammen                Expires 4 April 2024                  [Page 1]
+van Kammen                Expires 11 April 2024                 [Page 1]
 
 Internet-Draft                hypermediatic                 October 2023
 
@@ -70,10 +70,10 @@ Internet-Draft                hypermediatic                 October 2023
 Table of Contents
 
    1.  Redefining the hypermedia experience  . . . . . . . . . . . .   2
-   2.  Hypermediatic hypermedia vs shallow webbrowsers . . . . . . .   2
-   3.  Benefits  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
-   4.  Criteria for a hypermediatic browser or fileformats . . . . .   3
-     4.1.  Native top-level URL browsin  . . . . . . . . . . . . . .   3
+   2.  Criteria for a hypermediatic browser or fileformats . . . . .   2
+     2.1.  Native top-level URL browsin  . . . . . . . . . . . . . .   3
+   3.  Hypermediatic hypermedia vs shallow webbrowsers . . . . . . .   3
+   4.  Benefits  . . . . . . . . . . . . . . . . . . . . . . . . . .   4
    5.  Hypermediatic as a selfmodulating synthesizer . . . . . . . .   4
    6.  Questioning the conservative interpretation of hypermedia . .   4
    7.  Contact . . . . . . . . . . . . . . . . . . . . . . . . . . .   5
@@ -100,19 +100,52 @@ Table of Contents
    future formats (gaming e.g.), we must stop looking at it like a web
    of textdocuments with bells and whistles.
 
-2.  Hypermediatic hypermedia vs shallow webbrowsers
+2.  Criteria for a hypermediatic browser or fileformats
+
+   1.  scan for words containing :// or multiple dots and a slash, and
+       present them as navigatable hyperlinks
+
+
+
+
+
+van Kammen                Expires 11 April 2024                 [Page 2]
+
+Internet-Draft                hypermediatic                 October 2023
+
+
+   2.  when possible, convert filenames in documents ('see foo.pdf') to
+       navigatable hyperlinks when they exist in the current filesystem/
+       directory.
+   3.  (any) fileformats with outbound/embedded links are the focus (not
+       only HTML)
+   4.  toplevel URLs with an unknown file-extension or mimetype should
+       trigger the fileformat store
+   5.  Outbound links are supported (like href in HTML)
+   6.  Embedded links are supported (like src in HTML)
+   7.  Tagging/Classifying nodes or items is supported (like class in
+       HTML)
+   8.  Naming nodes or items is supported (like id in HTML, or object
+       names in glTF)
+   9.  Positioning the user in 2D/3D is supported (like a spawn-point in
+       games, or URI Fragment-jump-to-page-position in HTML)
+
+   |  Subsets are encouraged too (hypermediatic is a spectrum).  For
+   |  example 1 & 2 are nice usecases for terminal/ereaders.
+
+2.1.  Native top-level URL browsin
+
+   1.  if an extension or mimetype is unknown
+   2.  search the fileformat store for supported fileformatviewers (and
+       offer installation)
+   3.  search the browser extension store for fileformat-related support
+       (and offer installation)
+
+3.  Hypermediatic hypermedia vs shallow webbrowsers
 
    The following feature-stack timeline has introduced lots of good, but
    also introduced hyperscripted unhyperified websites, causing trending
    technologies like htmx.org (https://htmx.org) and native appstores:
-
-
-
-
-van Kammen                Expires 4 April 2024                  [Page 2]
-
-Internet-Draft                hypermediatic                 October 2023
-
 
    1.  Hypertext format (HTML)
    2.  Embedded Hypermedia in HTML
@@ -130,7 +163,14 @@ Internet-Draft                hypermediatic                 October 2023
    3.  browser extensions (store) only place to allow logic/scripting
        (javascript e.g.)
 
-3.  Benefits
+
+
+van Kammen                Expires 11 April 2024                 [Page 3]
+
+Internet-Draft                hypermediatic                 October 2023
+
+
+4.  Benefits
 
    1.  non-HTML fileformats are treated as first-class hypermedia too,
        fostering latest hardware-to-software hypermedia experiences.
@@ -144,37 +184,6 @@ Internet-Draft                hypermediatic                 October 2023
    5.  preventing the security/privacy traps of hyperscripted HTML, by
        pushing/allowing logic-layer (javascript e.g.) only in browser-
        extension space
-
-4.  Criteria for a hypermediatic browser or fileformats
-
-   1.  fileformats with outbound/embedded links are the focus (not only
-       HTML)
-   2.  toplevel URLs with an unknown file-extension or mimetype should
-       trigger the fileformat store
-   3.  Outbound links are supported (like href in HTML)
-   4.  Embedded links are supported (like src in HTML)
-   5.  Tagging/Classifying nodes or items is supported (like class in
-       HTML)
-   6.  Naming nodes or items is supported (like id in HTML, or object
-       names in glTF)
-   7.  Positioning the user in 2D/3D is supported (like a spawn-point in
-       games, or URI Fragment-jump-to-page-position in HTML)
-
-4.1.  Native top-level URL browsin
-
-
-
-
-van Kammen                Expires 4 April 2024                  [Page 3]
-
-Internet-Draft                hypermediatic                 October 2023
-
-
-   1.  if an extension or mimetype is unknown
-   2.  search the fileformat store for supported fileformatviewers (and
-       offer installation)
-   3.  search the browser extension store for fileformat-related support
-       (and offer installation)
 
 5.  Hypermediatic as a selfmodulating synthesizer
 
@@ -207,24 +216,19 @@ Internet-Draft                hypermediatic                 October 2023
        deferred to the (browser-extension) backseat?
    3.  Why are hypermedia fileformats not encouraged to support the
        outbound/embedded hyperlink-paradigm like HTML?
-   4.  Why are operating systems not supporting/encouraging outbound/
-       embedded links in fileformats out of the box? (liquid
-       information/hyperwords e.g.)
 
 
 
 
 
-
-
-
-
-
-
-van Kammen                Expires 4 April 2024                  [Page 4]
+van Kammen                Expires 11 April 2024                 [Page 4]
 
 Internet-Draft                hypermediatic                 October 2023
 
+
+   4.  Why are operating systems not supporting/encouraging outbound/
+       embedded links in fileformats out of the box? (liquid
+       information/hyperwords e.g.)
 
    A lot of it, can perhaps be explained by the *hypertext-first-
    hypermedia-later vision* which most webbrowsers and operating systems
@@ -273,8 +277,4 @@ Internet-Draft                hypermediatic                 October 2023
 
 
 
-
-
-
-
-van Kammen                Expires 4 April 2024                  [Page 5]
+van Kammen                Expires 11 April 2024                 [Page 5]

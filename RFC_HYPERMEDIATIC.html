@@ -32,6 +32,32 @@ A hypermediatic browser <b>MEDIATES</b> in hyperconnecting URIs/URLs, by treatin
 
 <p>If we want the web to be inclusive for spatial computing and other future formats (gaming e.g.), we must stop looking at it like a web of textdocuments with bells and whistles.</p>
 
+<h1 id="criteria-for-a-hypermediatic-browser-or-fileformats">Criteria for a hypermediatic browser or fileformats</h1>
+
+<ol>
+<li>scan for words containing <code>://</code> or multiple dots and a slash, and present them as navigatable hyperlinks</li>
+<li>when possible, convert filenames in documents (&lsquo;see foo.pdf&rsquo;) to navigatable hyperlinks when they exist in the current filesystem/directory.</li>
+<li>(any) fileformats with outbound/embedded links are the focus (not only HTML)</li>
+<li>toplevel URLs with an unknown file-extension or mimetype should trigger the fileformat store</li>
+<li>Outbound links are supported (like <code>href</code> in HTML)</li>
+<li>Embedded links are supported (like <code>src</code> in HTML)</li>
+<li>Tagging/Classifying nodes or items is supported (like <code>class</code> in HTML)</li>
+<li>Naming nodes or items is supported (like <code>id</code> in HTML, or object names in glTF)</li>
+<li>Positioning the user in 2D/3D is supported (like a spawn-point in games, or URI Fragment-jump-to-page-position in HTML)</li>
+</ol>
+
+<blockquote>
+<p>Subsets are encouraged too (hypermediatic is a spectrum). For example 1 &amp; 2 are nice usecases for terminal/ereaders.</p>
+</blockquote>
+
+<h2 id="native-top-level-url-browsin">Native top-level URL browsin</h2>
+
+<ol>
+<li>if an extension or mimetype is unknown</li>
+<li>search the fileformat store for supported fileformatviewers (and offer installation)</li>
+<li>search the browser extension store for fileformat-related support (and offer installation)</li>
+</ol>
+
 <h1 id="hypermediatic-hypermedia-vs-shallow-webbrowsers">Hypermediatic hypermedia vs shallow webbrowsers</h1>
 
 <p>The following feature-stack timeline has introduced lots of good, but also introduced hyperscripted unhyperified websites, causing trending technologies like <a href="https://htmx.org">htmx.org</a> and native appstores:</p>
@@ -60,26 +86,6 @@ In retrospect, a more hypermediatic browser however, could perhaps be achieved a
 <li>unrecognized fileformats can automatically consult the filetype and/or browser extension-store, and trigger an installation CTA</li>
 <li>closing the gap between native highperformance games/spatial computing and the (lower performing security-sandboxed) webbrowser</li>
 <li>preventing the security/privacy traps of hyperscripted HTML, by pushing/allowing logic-layer (javascript e.g.) only in browser-extension space</li>
-</ol>
-
-<h1 id="criteria-for-a-hypermediatic-browser-or-fileformats">Criteria for a hypermediatic browser or fileformats</h1>
-
-<ol>
-<li>fileformats with outbound/embedded links are the focus (not only HTML)</li>
-<li>toplevel URLs with an unknown file-extension or mimetype should trigger the fileformat store</li>
-<li>Outbound links are supported (like <code>href</code> in HTML)</li>
-<li>Embedded links are supported (like <code>src</code> in HTML)</li>
-<li>Tagging/Classifying nodes or items is supported (like <code>class</code> in HTML)</li>
-<li>Naming nodes or items is supported (like <code>id</code> in HTML, or object names in glTF)</li>
-<li>Positioning the user in 2D/3D is supported (like a spawn-point in games, or URI Fragment-jump-to-page-position in HTML)</li>
-</ol>
-
-<h2 id="native-top-level-url-browsin">Native top-level URL browsin</h2>
-
-<ol>
-<li>if an extension or mimetype is unknown</li>
-<li>search the fileformat store for supported fileformatviewers (and offer installation)</li>
-<li>search the browser extension store for fileformat-related support (and offer installation)</li>
 </ol>
 
 <h1 id="hypermediatic-as-a-selfmodulating-synthesizer">Hypermediatic as a selfmodulating synthesizer</h1>
